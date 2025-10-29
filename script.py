@@ -13,10 +13,10 @@ serial_port = '/dev/ttyUSB0'
 baud_rate = 9600
 context = ssl.create_default_context()
 
-DB_HOST = "localhost"
-DB_USER = "root"
-DB_PASSWD = "1234"
-DB_DATABASE = "celtikotomasyon"
+DB_HOST = "localhost" #ENTER YOUR HOST NAME
+DB_USER = " " #ENTER YOUR DB USERNAME
+DB_PASSWD = " " #ENTER YOUR DB PASSWORD
+DB_DATABASE = " " #ENTER YOUR DB NAME
 
 def clear_screen():
     """Ekranı temizler."""
